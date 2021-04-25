@@ -1,0 +1,6 @@
+framework module GSHeartbeatKit {
+  umbrella header "GSHeartbeatKit.h"
+
+  export *
+  module * { export * }
+}

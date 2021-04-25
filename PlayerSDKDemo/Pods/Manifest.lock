@@ -1,0 +1,27 @@
+PODS:
+  - GenseeSDK (1.1.1):
+    - GenseeSDK/GSPlayerSDK (= 1.1.1)
+  - GenseeSDK/GSCommonSDK (1.1.1):
+    - GenseeSDK/GSGPUImageSDK
+  - GenseeSDK/GSDocSDK (1.1.1):
+    - GenseeSDK/GSCommonSDK
+    - GenseeSDK/GSGPUImageSDK
+    - GenseeSDK/GSHeartBeatSDK
+  - GenseeSDK/GSGPUImageSDK (1.1.1)
+  - GenseeSDK/GSHeartBeatSDK (1.1.1)
+  - GenseeSDK/GSPlayerSDK (1.1.1):
+    - GenseeSDK/GSDocSDK
+
+DEPENDENCIES:
+  - GenseeSDK (~> 1.1.1)
+
+SPEC REPOS:
+  trunk:
+    - GenseeSDK
+
+SPEC CHECKSUMS:
+  GenseeSDK: 2826cfb550ab168e49a2341e90e8fa5ef30a6ffd
+
+PODFILE CHECKSUM: 64243565ee80a4054d5557cf146f154b18111a07
+
+COCOAPODS: 1.10.1

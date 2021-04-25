@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GenseeSDK"
-  spec.version      = "1.2.8"
+  spec.version      = "1.1.2"
   spec.summary      = "Gensee SDK."
 
 
@@ -106,7 +106,7 @@ spec.static_framework = true
   spec.libraries =  'c++'
   spec.frameworks = 'GLKit'
   spec.vendored_libraries = [
-    'Libs/libfaad.a',
+    'Libs/liblibfaad.a',
     'Libs/libx264.a',
     'Libs/ffmpeg/*.a'
   ]

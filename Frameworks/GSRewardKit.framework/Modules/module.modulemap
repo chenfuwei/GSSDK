@@ -1,0 +1,6 @@
+framework module GSRewardKit {
+  umbrella header "GSRewardKit.h"
+
+  export *
+  module * { export * }
+}

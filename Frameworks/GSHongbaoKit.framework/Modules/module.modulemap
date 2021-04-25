@@ -1,0 +1,6 @@
+framework module GSHongbaoKit {
+  umbrella header "GSHongbaoKit.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9GN-dZ-V1E">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="P6b-wF-Ht9">
+            <objects>
+                <viewController id="9GN-dZ-V1E" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wgm-aS-ayg"/>
+                        <viewControllerLayoutGuide type="bottom" id="ODS-kZ-Y5U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pWk-ak-CrY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QFY-Uo-5pF">
+                                <rect key="frame" x="0.0" y="20" width="375" height="552"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIO-OP-qaZ">
+                                <rect key="frame" x="10" y="597" width="355" height="50"/>
+                                <color key="backgroundColor" red="0.21176470589999999" green="0.74117647060000003" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="qn2-fp-am7"/>
+                                </constraints>
+                                <state key="normal" title="搜索">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zIO-OP-qaZ" secondAttribute="trailing" constant="10" id="MWx-5T-ep6"/>
+                            <constraint firstItem="zIO-OP-qaZ" firstAttribute="top" secondItem="QFY-Uo-5pF" secondAttribute="bottom" constant="25" id="dOx-af-dlf"/>
+                            <constraint firstAttribute="trailing" secondItem="QFY-Uo-5pF" secondAttribute="trailing" id="eZC-Wf-5Tk"/>
+                            <constraint firstItem="QFY-Uo-5pF" firstAttribute="top" secondItem="wgm-aS-ayg" secondAttribute="bottom" id="lhn-yx-sr4"/>
+                            <constraint firstItem="ODS-kZ-Y5U" firstAttribute="top" secondItem="zIO-OP-qaZ" secondAttribute="bottom" constant="20" id="pzf-ZQ-PQT"/>
+                            <constraint firstItem="zIO-OP-qaZ" firstAttribute="leading" secondItem="pWk-ak-CrY" secondAttribute="leading" constant="10" id="wI5-DB-zLG"/>
+                            <constraint firstItem="QFY-Uo-5pF" firstAttribute="leading" secondItem="pWk-ak-CrY" secondAttribute="leading" id="xgT-La-BqU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueToothButton" destination="zIO-OP-qaZ" id="HAb-dd-PhF"/>
+                        <outlet property="tableView" destination="QFY-Uo-5pF" id="EKU-yG-zfb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eyc-io-TQd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>

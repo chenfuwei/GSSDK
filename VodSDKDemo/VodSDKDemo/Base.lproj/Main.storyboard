@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z8z-Gn-gwf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="player" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911" y="1189"/>
+        </scene>
+        <!--欢迎使用VodSDKDemo-->
+        <scene sceneID="PLS-08-oJG">
+            <objects>
+                <viewController id="nxq-XF-YkF" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u5j-oh-Sks"/>
+                        <viewControllerLayoutGuide type="bottom" id="gXK-aW-alo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BfU-WR-eYe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="域名: domain" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DEC-Vw-aiI">
+                                <rect key="frame" x="46" y="84" width="228" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Zob-Ov-yCV"/>
+                                    <constraint firstAttribute="height" constant="30" id="qzu-49-GXl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="qzu-49-GXl"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="服务类型: serviceType" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tei-fD-d4B">
+                                <rect key="frame" x="46" y="144" width="228" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="EQh-J1-ImA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="编号: number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ijK-aG-wvh">
+                                <rect key="frame" x="46" y="204" width="228" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xVk-wh-RzC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="观看密码: vodPassword" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eEi-qW-c3x">
+                                <rect key="frame" x="46" y="264" width="228" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Sqz-lZ-mRT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycy-Sc-mbm">
+                                <rect key="frame" x="46" y="458" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="J3N-Cb-WDo"/>
+                                    <constraint firstAttribute="width" constant="60" id="njM-0s-dKM"/>
+                                </constraints>
+                                <state key="normal" title="下  载"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQY-0H-f5Q">
+                                <rect key="frame" x="214" y="458" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="R8y-dX-QmF"/>
+                                    <constraint firstAttribute="width" constant="60" id="VRE-Xj-YtH"/>
+                                </constraints>
+                                <state key="normal" title="在线播放"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="第三方验证Token" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gIW-IO-1Vu">
+                                <rect key="frame" x="42" y="328" width="236" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="YTC-N5-SnH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="DQY-0H-f5Q" secondAttribute="trailing" constant="30" id="0l3-Sn-5JT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gIW-IO-1Vu" secondAttribute="trailing" constant="26" id="1Ur-J0-Jkt"/>
+                            <constraint firstItem="eEi-qW-c3x" firstAttribute="top" secondItem="ijK-aG-wvh" secondAttribute="bottom" constant="20" id="1qf-ec-bVe"/>
+                            <constraint firstItem="eEi-qW-c3x" firstAttribute="leading" secondItem="BfU-WR-eYe" secondAttribute="leadingMargin" constant="30" id="6dk-kk-uqI"/>
+                            <constraint firstItem="ijK-aG-wvh" firstAttribute="top" secondItem="Tei-fD-d4B" secondAttribute="bottom" constant="10" id="6sH-uY-0Hw"/>
+                            <constraint firstItem="ycy-Sc-mbm" firstAttribute="leading" secondItem="BfU-WR-eYe" secondAttribute="leadingMargin" constant="30" id="6xZ-OW-Xfc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Tei-fD-d4B" secondAttribute="trailing" constant="30" id="7PX-0R-e3a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DEC-Vw-aiI" secondAttribute="trailing" constant="30" id="NKs-dH-nAy"/>
+                            <constraint firstItem="ijK-aG-wvh" firstAttribute="top" secondItem="Tei-fD-d4B" secondAttribute="bottom" constant="20" id="NjQ-dH-C2D"/>
+                            <constraint firstItem="gIW-IO-1Vu" firstAttribute="leading" secondItem="BfU-WR-eYe" secondAttribute="leadingMargin" constant="26" id="ReS-wC-mvX"/>
+                            <constraint firstItem="ijK-aG-wvh" firstAttribute="leading" secondItem="BfU-WR-eYe" secondAttribute="leadingMargin" constant="30" id="V9g-I5-eqc"/>
+                            <constraint firstItem="eEi-qW-c3x" firstAttribute="top" secondItem="ijK-aG-wvh" secondAttribute="bottom" constant="15" id="Y8f-49-589"/>
+                            <constraint firstItem="gIW-IO-1Vu" firstAttribute="top" secondItem="eEi-qW-c3x" secondAttribute="bottom" constant="24" id="a3Q-bW-ofh"/>
+                            <constraint firstItem="gXK-aW-alo" firstAttribute="top" secondItem="DQY-0H-f5Q" secondAttribute="bottom" constant="80" id="cFZ-RP-mNM"/>
+                            <constraint firstItem="ijK-aG-wvh" firstAttribute="leading" secondItem="BfU-WR-eYe" secondAttribute="leadingMargin" constant="30" id="fm8-1n-qAf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ijK-aG-wvh" secondAttribute="trailing" constant="33" id="n8H-SS-Mhr"/>
+                            <constraint firstItem="Tei-fD-d4B" firstAttribute="leading" secondItem="BfU-WR-eYe" secondAttribute="leadingMargin" constant="30" id="oDC-1V-laH"/>
+                            <constraint firstItem="DEC-Vw-aiI" firstAttribute="top" secondItem="u5j-oh-Sks" secondAttribute="bottom" constant="20" id="ocl-3r-kgC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ijK-aG-wvh" secondAttribute="trailing" constant="30" id="oxd-qZ-d4L"/>
+                            <constraint firstItem="Tei-fD-d4B" firstAttribute="top" secondItem="DEC-Vw-aiI" secondAttribute="bottom" constant="20" id="rI6-kE-TbX"/>
+                            <constraint firstItem="DQY-0H-f5Q" firstAttribute="top" secondItem="eEi-qW-c3x" secondAttribute="bottom" constant="30" id="sWk-RG-tgN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eEi-qW-c3x" secondAttribute="trailing" constant="30" id="vXl-3o-8Cn"/>
+                            <constraint firstItem="gXK-aW-alo" firstAttribute="top" secondItem="ycy-Sc-mbm" secondAttribute="bottom" constant="80" id="zSc-cX-VsQ"/>
+                            <constraint firstItem="DEC-Vw-aiI" firstAttribute="leading" secondItem="BfU-WR-eYe" secondAttribute="leadingMargin" constant="30" id="zjn-iN-IVb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6sH-uY-0Hw"/>
+                                <exclude reference="V9g-I5-eqc"/>
+                                <exclude reference="n8H-SS-Mhr"/>
+                                <exclude reference="Y8f-49-589"/>
+                                <exclude reference="sWk-RG-tgN"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="欢迎使用VodSDKDemo" id="ttU-QR-z0f"/>
+                    <connections>
+                        <outlet property="domain" destination="DEC-Vw-aiI" id="M9X-vp-dn6"/>
+                        <outlet property="downloadBtn" destination="ycy-Sc-mbm" id="j04-Xs-RYQ"/>
+                        <outlet property="livePlayBtn" destination="DQY-0H-f5Q" id="U1q-TU-Esi"/>
+                        <outlet property="number" destination="ijK-aG-wvh" id="81C-ae-ZLI"/>
+                        <outlet property="serviceType" destination="Tei-fD-d4B" id="iaF-In-eSK"/>
+                        <outlet property="thirdTokenTextField" destination="gIW-IO-1Vu" id="KsZ-dQ-qaE"/>
+                        <outlet property="vodPassword" destination="eEi-qW-c3x" id="2ch-Ef-lRj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ieD-2g-Qfj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2209" y="528"/>
+        </scene>
+        <!--Down Load View Controller-->
+        <scene sceneID="WO0-Gl-DHJ">
+            <objects>
+                <viewController storyboardIdentifier="downloader" id="26d-h8-tze" customClass="DownLoadViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T5U-Jv-HMX"/>
+                        <viewControllerLayoutGuide type="bottom" id="rEL-0P-rHb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kGK-NM-uwU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="p3l-tw-RZ5">
+                                <rect key="frame" x="46" y="142" width="228" height="2"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="下载进度:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIg-ne-LT0">
+                                <rect key="frame" x="46" y="70" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A63-GN-nBm">
+                                <rect key="frame" x="46" y="244" width="60" height="30"/>
+                                <state key="normal" title="开始下载"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDe-v5-F2Q">
+                                <rect key="frame" x="214" y="244" width="60" height="30"/>
+                                <state key="normal" title="暂停下载"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKn-cN-yu8">
+                                <rect key="frame" x="214" y="294" width="60" height="30"/>
+                                <state key="normal" title="离线播放"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xxz-Lt-LgH">
+                                <rect key="frame" x="46" y="294" width="60" height="30"/>
+                                <state key="normal" title="删除下载"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nDe-v5-F2Q" firstAttribute="top" secondItem="p3l-tw-RZ5" secondAttribute="bottom" constant="100" id="3Ok-Vw-N0l"/>
+                            <constraint firstItem="YKn-cN-yu8" firstAttribute="top" secondItem="nDe-v5-F2Q" secondAttribute="bottom" constant="20" id="Gdz-9i-8Hb"/>
+                            <constraint firstItem="uIg-ne-LT0" firstAttribute="top" secondItem="T5U-Jv-HMX" secondAttribute="bottom" constant="50" id="Ipg-JE-H3S"/>
+                            <constraint firstItem="uIg-ne-LT0" firstAttribute="leading" secondItem="kGK-NM-uwU" secondAttribute="leadingMargin" constant="30" id="J6o-EB-Lw1"/>
+                            <constraint firstItem="A63-GN-nBm" firstAttribute="top" secondItem="p3l-tw-RZ5" secondAttribute="bottom" constant="100" id="Nty-J0-bKN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YKn-cN-yu8" secondAttribute="trailing" constant="30" id="SxO-yT-YSc"/>
+                            <constraint firstItem="p3l-tw-RZ5" firstAttribute="top" secondItem="uIg-ne-LT0" secondAttribute="bottom" constant="51" id="UiW-nL-Hub"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nDe-v5-F2Q" secondAttribute="trailing" constant="30" id="b24-yj-ocl"/>
+                            <constraint firstItem="Xxz-Lt-LgH" firstAttribute="top" secondItem="A63-GN-nBm" secondAttribute="bottom" constant="20" id="dp5-6v-BF2"/>
+                            <constraint firstItem="p3l-tw-RZ5" firstAttribute="leading" secondItem="kGK-NM-uwU" secondAttribute="leadingMargin" constant="30" id="gaa-eq-Nhw"/>
+                            <constraint firstItem="Xxz-Lt-LgH" firstAttribute="leading" secondItem="kGK-NM-uwU" secondAttribute="leadingMargin" constant="30" id="hnB-hs-aer"/>
+                            <constraint firstItem="A63-GN-nBm" firstAttribute="leading" secondItem="kGK-NM-uwU" secondAttribute="leadingMargin" constant="30" id="icy-XB-wkM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="p3l-tw-RZ5" secondAttribute="trailing" constant="30" id="vqC-6A-cNC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="deleteDownloadBtn" destination="Xxz-Lt-LgH" id="mIe-ze-ATp"/>
+                        <outlet property="downloadBtn" destination="A63-GN-nBm" id="Zdb-j6-1jM"/>
+                        <outlet property="lable" destination="uIg-ne-LT0" id="3z9-8i-tC7"/>
+                        <outlet property="pauseDownloadBtn" destination="nDe-v5-F2Q" id="5dJ-Q0-Yfr"/>
+                        <outlet property="progressbar" destination="p3l-tw-RZ5" id="auJ-p7-Qpy"/>
+                        <outlet property="vodPlayBtn" destination="YKn-cN-yu8" id="fC5-Yb-wHk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWb-Hc-bXN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2857" y="528"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rhD-dd-k6v">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z8z-Gn-gwf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3w0-U6-FDE">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nxq-XF-YkF" kind="relationship" relationship="rootViewController" id="s3r-VS-hyO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ey-IX-n7Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="528"/>
+        </scene>
+    </scenes>
+</document>

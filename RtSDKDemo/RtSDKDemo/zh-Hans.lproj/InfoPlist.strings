@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  iOSDemo
+
+  Created by Gaojin Hsu on 4/8/15.
+  Copyright (c) 2015 gensee. All rights reserved.
+*/
+CFBundleDisplayName = "RtSDK 示例";

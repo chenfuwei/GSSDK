@@ -1,0 +1,6 @@
+framework module Pods_FastDemo {
+  umbrella header "Pods-FastDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

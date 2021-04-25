@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GSPJoinResult</key>
+	<dict>
+		<key>1</key>
+		<string>直播间进入失败，请退出重试。</string>
+		<key>2</key>
+		<string>直播间加入失败，请退出重试。</string>
+		<key>3</key>
+		<string>请检查您的网络，请退出重试。</string>
+		<key>4</key>
+		<string>未知错误，请退出重试。</string>
+		<key>5</key>
+		<string>直播参数有误，请联系管理员。</string>
+		<key>8</key>
+		<string>直播间连接失败，请退出重试。</string>
+		<key>9</key>
+		<string>直播间连接超时，请退出重试。</string>
+		<key>10</key>
+		<string>直播服务连接失败，请退出重试。</string>
+		<key>11</key>
+		<string>直播未开始，请稍后。</string>
+		<key>12</key>
+		<string>抱歉，直播人数已满。</string>
+		<key>13</key>
+		<string>抱歉，直播人数已满。</string>
+		<key>16</key>
+		<string>您已在其他地方登陆，请先退出。</string>
+		<key>17</key>
+		<string>您已被禁止加入直播。</string>
+		<key>18</key>
+		<string>抱歉，直播人数已满。</string>
+		<key>19</key>
+		<string>第三方认证失败，请联系管理员。</string>
+		<key>20</key>
+		<string>不支持移动端加入。</string>
+		<key>21</key>
+		<string>直播间不存在，请联系管理员。</string>
+		<key>22</key>
+		<string>直播ID无效，请联系管理员。</string>
+		<key>23</key>
+		<string>登录失败，请联系管理员。</string>
+		<key>24</key>
+		<string>口令不正确，请联系管理员。</string>
+		<key>25</key>
+		<string>域名解析出错，请退出重试。</string>
+		<key>26</key>
+		<string>入会参数错误，请联系管理员。</string>
+		<key>27</key>
+		<string>直播间已过期，请联系管理员。</string>
+	</dict>
+</dict>
+</plist>

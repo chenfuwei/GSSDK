@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "打开音频"; ObjectID = "37x-Zm-Jzh"; */
+"37x-Zm-Jzh.normalTitle" = "打开音频";
+
+/* Class = "UIButton"; normalTitle = "关闭视频"; ObjectID = "9yV-5Q-5gw"; */
+"9yV-5Q-5gw.normalTitle" = "停止视频";
+
+/* Class = "UITextField"; placeholder = "登录密码"; ObjectID = "FgS-kf-1dL"; */
+"FgS-kf-1dL.placeholder" = "登录密码";
+
+/* Class = "UITextField"; placeholder = "域名"; ObjectID = "GLn-du-nIY"; */
+"GLn-du-nIY.placeholder" = "域名";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "KhL-g0-WuE"; */
+"KhL-g0-WuE.normalTitle" = "下一步";
+
+/* Class = "UITextField"; placeholder = "昵称"; ObjectID = "Org-KI-hgS"; */
+"Org-KI-hgS.placeholder" = "昵称";
+
+/* Class = "UITextField"; placeholder = "登录名"; ObjectID = "Qw4-JB-Y8w"; */
+"Qw4-JB-Y8w.placeholder" = "登录名";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "Rw3-Sk-FsO"; */
+"Rw3-Sk-FsO.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "或"; ObjectID = "Tbl-1x-20i"; */
+"Tbl-1x-20i.text" = "或";
+
+/* Class = "UITextField"; placeholder = "服务类型"; ObjectID = "bH9-dH-7y2"; */
+"bH9-dH-7y2.placeholder" = "服务类型";
+
+/* Class = "UIButton"; normalTitle = "打开视频"; ObjectID = "iak-0e-ZHs"; */
+"iak-0e-ZHs.normalTitle" = "接收视频";
+
+/* Class = "UITextField"; placeholder = "观看密码"; ObjectID = "jHa-Yb-Xpb"; */
+"jHa-Yb-Xpb.placeholder" = "观看密码";
+
+/* Class = "UITextField"; placeholder = "房间号"; ObjectID = "juU-bk-XTf"; */
+"juU-bk-XTf.placeholder" = "房间号";
+
+/* Class = "UIButton"; normalTitle = "关闭音频"; ObjectID = "lwn-Is-1Mj"; */
+"lwn-Is-1Mj.normalTitle" = "关闭音频";
+
+/* Class = "UITextField"; placeholder = "直播ID"; ObjectID = "qGp-59-gGk"; */
+"qGp-59-gGk.placeholder" = "直播ID";

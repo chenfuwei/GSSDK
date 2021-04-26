@@ -1,0 +1,6 @@
+framework module Pods_VodSDKDemo {
+  umbrella header "Pods-VodSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GenseeSDK"
-  spec.version      = "1.1.5"
+  spec.version      = "1.1.6"
   spec.summary      = "Gensee SDK."
 
 
@@ -72,6 +72,9 @@ spec.static_framework = true
   spec.subspec 'GSVodSDK' do |ss|
     ss.vendored_frameworks  = [
     'frameworks/VodSDK.framework'
+    ]
+    ss.vendored_libraries = [
+    'Libs/libPlayerSDKLib.a'
     ]
     ss.dependency "GenseeSDK/GSDocSDK"
   end

@@ -1,0 +1,6 @@
+framework module VodSDK {
+  umbrella header "VodSDK.h"
+
+  export *
+  module * { export * }
+}

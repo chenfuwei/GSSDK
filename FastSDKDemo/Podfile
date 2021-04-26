@@ -2,11 +2,6 @@ platform:ios, '8.0'
 xcodeproj 'FastDemo.xcodeproj'
 use_frameworks!
 target "FastDemo" do
-pod 'MBProgressHUD', '~> 1.1.0'
-pod 'Masonry', '~> 1.1.0'
-pod 'MZTimerLabel', '~> 0.5.4'
-pod 'IQKeyboardManager', '~> 6.1.1'
-pod 'Bugly', '~> 2.5.0'
-pod 'ThemeManager', '~> 1.0.1'
-pod 'MJRefresh', '~> 3.1.15.7'
+	pod 'GenseeSDK/GSFastSDK', '~> 1.1.5'
+	pod 'Bugly', '~> 2.5.0'
 end

@@ -1,0 +1,22 @@
+PODS:
+  - GenseeSDK (1.1.5):
+    - GenseeSDK/GSPlayerSDK (= 1.1.5)
+  - GenseeSDK/GSCommonSDK (1.1.5)
+  - GenseeSDK/GSDocSDK (1.1.5):
+    - GenseeSDK/GSCommonSDK
+  - GenseeSDK/GSPlayerSDK (1.1.5):
+    - GenseeSDK/GSDocSDK
+
+DEPENDENCIES:
+  - GenseeSDK (~> 1.1.5)
+
+SPEC REPOS:
+  trunk:
+    - GenseeSDK
+
+SPEC CHECKSUMS:
+  GenseeSDK: 9381521ca263500e026b8ff82dff12f7deba0b03
+
+PODFILE CHECKSUM: 17f2ac314468596471eb00df5ac77263be23f8f6
+
+COCOAPODS: 1.10.1

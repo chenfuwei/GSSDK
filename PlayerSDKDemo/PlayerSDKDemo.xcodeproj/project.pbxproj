@@ -121,7 +121,6 @@
 		04296AB821099F0C00501F32 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = ../../../../../lib/ios/libx264.a; sourceTree = "<group>"; };
 		04296AB921099F0C00501F32 /* libPlayerSDKLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPlayerSDKLib.a; path = ../../../../../lib/ios/libPlayerSDKLib.a; sourceTree = "<group>"; };
 		04296AC221099F1300501F32 /* liblibfaad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibfaad.a; path = ../../../../../lib/ios/offlineplay/liblibfaad.a; sourceTree = "<group>"; };
-		04871E20212285AA00190352 /* PlayerSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PlayerSDK.bundle; path = ../../PlayerSDK.bundle; sourceTree = "<group>"; };
 		048AAD4C212412B400012B2D /* UIFont+GSFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GSFonts.m"; sourceTree = "<group>"; };
 		048AAD4D212412B400012B2D /* UIView+GSSetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GSSetRect.m"; sourceTree = "<group>"; };
 		048AAD4E212412B400012B2D /* UIFont+GSFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+GSFonts.h"; sourceTree = "<group>"; };
@@ -721,7 +720,6 @@
 				04296AAC21099EE000501F32 /* Libs */,
 				048AAD52212412B900012B2D /* Model */,
 				048AAD59212412BE00012B2D /* Views */,
-				04871E20212285AA00190352 /* PlayerSDK.bundle */,
 				65CB8C6A1B28147E002AE989 /* AppDelegate.h */,
 				658364CC1BCF9D380055FCD7 /* AppDelegate.mm */,
 				9604D4141B467DD300A7E8DE /* ChatListView.h */,

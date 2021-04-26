@@ -25,6 +25,17 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>Copyright PPAbner 2016-2021
+</string>
+			<key>License</key>
+			<string>MIT</string>
+			<key>Title</key>
+			<string>GenseeSDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>MIT License
 
 Copyright (c) 2013-2017 Iftekhar Qurashi

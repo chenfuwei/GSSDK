@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GenseeSDK"
-  spec.version      = "1.1.2"
+  spec.version      = "1.1.5"
   spec.summary      = "Gensee SDK."
 
 
@@ -29,9 +29,9 @@ spec.static_framework = true
 
   spec.author             = { "net263" => "mobile-gensee@net263.com" }
 
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "8.0"
 
-  spec.ios.deployment_target = "9.0"
+  spec.ios.deployment_target = "8.0"
   spec.default_subspecs = "GSPlayerSDK"
 
   spec.source       = { :git => "https://github.com/chenfuwei/GSSDK.git", :tag => "#{spec.version}" }
@@ -64,6 +64,14 @@ spec.static_framework = true
     ]
     ss.resources            = [
       "bundles/RtSDK.bundle"
+    ]
+    ss.dependency "GenseeSDK/GSDocSDK"
+  end
+
+  #VodSDK,用于录制件的离线与在线播放，还有录制件的下载功能
+  spec.subspec 'GSVodSDK' do |ss|
+    ss.vendored_frameworks  = [
+    'frameworks/VodSDK.framework'
     ]
     ss.dependency "GenseeSDK/GSDocSDK"
   end
@@ -103,13 +111,6 @@ spec.static_framework = true
     ss.dependency "GenseeSDK/GSCommonSDK"
   end
 
-  spec.libraries =  'c++'
-  spec.frameworks = 'GLKit'
-  spec.vendored_libraries = [
-    'Libs/liblibfaad.a',
-    'Libs/libx264.a',
-    'Libs/ffmpeg/*.a'
-  ]
 
 
 #***************internal****************************#
@@ -118,24 +119,22 @@ spec.static_framework = true
     'frameworks/GSDocKit.framework'
     ]
     ss.dependency "GenseeSDK/GSCommonSDK"
-    ss.dependency "GenseeSDK/GSHeartBeatSDK"
-    ss.dependency "GenseeSDK/GSGPUImageSDK"
   end
-  spec.subspec 'GSGPUImageSDK' do |ss|
-    ss.vendored_frameworks  = [
-    'frameworks/GPUImage.framework'
-    ]
-  end
+
   spec.subspec 'GSCommonSDK' do |ss|
     ss.vendored_frameworks  = [
-    'frameworks/GSCommonKit.framework'
+    'frameworks/GSCommonKit.framework',
+    'frameworks/GSHeartbeatKit.framework',
+    'frameworks/GPUImage.framework'
     ]
-    ss.dependency "GenseeSDK/GSGPUImageSDK"
+   ss.libraries =  'c++'
+   ss.frameworks = 'GLKit'
+   ss.vendored_libraries = [
+    'Libs/liblibfaad.a',
+    'Libs/libx264.a',
+    'Libs/ffmpeg/*.a'
+  ]
   end
-  spec.subspec 'GSHeartBeatSDK' do |ss|
-    ss.vendored_frameworks  = [
-    'frameworks/GSHeartbeatKit.framework'
-    ]
-  end
+  
 
 end

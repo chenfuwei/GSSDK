@@ -6,6 +6,11 @@ This application makes use of the following third party libraries:
 Copyright (C) 2017 Tencent Bugly, Inc. All rights reserved.
 
 
+## GenseeSDK
+
+Copyright PPAbner 2016-2021
+
+
 ## IQKeyboardManager
 
 MIT License

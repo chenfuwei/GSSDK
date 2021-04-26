@@ -119,39 +119,11 @@
 		04EDC9D72125521B000DB4B0 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDC9C52125521B000DB4B0 /* IQKeyboardReturnKeyHandler.m */; };
 		04EDC9DA212552EF000DB4B0 /* GSCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDC9D9212552EF000DB4B0 /* GSCustomViewController.m */; };
 		04EDC9DC2125557E000DB4B0 /* EnumDic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04EDC9DB2125557E000DB4B0 /* EnumDic.plist */; };
-		04EDC9E321256524000DB4B0 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EDC9E221256523000DB4B0 /* GLKit.framework */; };
 		04EDC9EE21256917000DB4B0 /* GSRtSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDC9ED21256917000DB4B0 /* GSRtSelectViewController.m */; };
 		04EDC9F121257139000DB4B0 /* GSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDC9EF21257138000DB4B0 /* GSChatViewController.m */; };
 		04EDC9F42126608F000DB4B0 /* GSQaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDC9F32126608F000DB4B0 /* GSQaViewController.m */; };
 		446C4E8A24FCD9FD003ECD16 /* libRobotPenSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEA4EC221C89F1000041314 /* libRobotPenSDK.a */; };
-		446C4EA524FCED32003ECD16 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA2F6020F5A58200782DE0 /* libavcodec.a */; };
-		446C4EA624FCED32003ECD16 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA2F6120F5A58200782DE0 /* libavformat.a */; };
-		446C4EA724FCED32003ECD16 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA2F5F20F5A58200782DE0 /* libavutil.a */; };
-		446C4EA824FCED32003ECD16 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA2F5D20F5A58200782DE0 /* libswresample.a */; };
-		446C4EA924FCED32003ECD16 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA2F5E20F5A58200782DE0 /* libswscale.a */; };
-		446C4EAA24FCED33003ECD16 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA2F6720F5A59500782DE0 /* libx264.a */; };
-		446C4EAB24FCED38003ECD16 /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FF396F224CE38800C49218 /* liblibfaad.a */; };
-		446C4EAC24FCED3E003ECD16 /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FF396F224CE38800C49218 /* liblibfaad.a */; };
-		446C4EAD24FCED46003ECD16 /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FF396F224CE38800C49218 /* liblibfaad.a */; };
-		44E0404E24F8F776009965DD /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FF396F224CE38800C49218 /* liblibfaad.a */; };
-		44E548E325206A4C0051F48C /* RtSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44E548E225206A4C0051F48C /* RtSDK.bundle */; };
-		44E667A624F92F9900BA55CA /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E667A224F92F9900BA55CA /* GPUImage.framework */; };
-		44E667A824F92F9900BA55CA /* GSCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E667A324F92F9900BA55CA /* GSCommonKit.framework */; };
-		44E667AA24F92F9900BA55CA /* GSDocKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E667A424F92F9900BA55CA /* GSDocKit.framework */; };
-		44E667AC24F92F9900BA55CA /* GSHeartbeatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E667A524F92F9900BA55CA /* GSHeartbeatKit.framework */; };
-		44FB662A25202ED400AAEF2B /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB662225202ED400AAEF2B /* libavutil.a */; };
-		44FB662B25202ED400AAEF2B /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB662325202ED400AAEF2B /* libavcodec.a */; };
-		44FB662C25202ED400AAEF2B /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB662425202ED400AAEF2B /* libavformat.a */; };
-		44FB662D25202ED400AAEF2B /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB662525202ED400AAEF2B /* libswresample.a */; };
-		44FB662E25202ED400AAEF2B /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB662625202ED400AAEF2B /* libswscale.a */; };
-		44FB663025202ED400AAEF2B /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB662825202ED400AAEF2B /* liblibfaad.a */; };
-		44FB663125202ED400AAEF2B /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB662925202ED400AAEF2B /* libx264.a */; };
-		44FB663E25202EE300AAEF2B /* RtSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB663425202EE300AAEF2B /* RtSDK.framework */; };
-		44FB663F25202EE300AAEF2B /* VodSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB663525202EE300AAEF2B /* VodSDK.framework */; };
-		44FB664025202EE300AAEF2B /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB663625202EE300AAEF2B /* GPUImage.framework */; };
-		44FB664225202EE300AAEF2B /* GSCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB663825202EE300AAEF2B /* GSCommonKit.framework */; };
-		44FB664525202EE300AAEF2B /* GSHeartbeatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB663B25202EE300AAEF2B /* GSHeartbeatKit.framework */; };
-		44FB664625202EE300AAEF2B /* GSDocKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FB663C25202EE300AAEF2B /* GSDocKit.framework */; };
+		447B11682636AA77001D9686 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ABD1051DC6E7CE00A841F5 /* libicucore.tbd */; };
 		65ABD0D71DC6E4F800A841F5 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65ABD0871DC6E4F800A841F5 /* AppDelegate.mm */; };
 		65ABD0D81DC6E4F800A841F5 /* input-bar-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65ABD0891DC6E4F800A841F5 /* input-bar-background@2x.png */; };
 		65ABD0DA1DC6E4F800A841F5 /* ToolViewEmotion_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65ABD08B1DC6E4F800A841F5 /* ToolViewEmotion_ios7@2x.png */; };
@@ -171,9 +143,6 @@
 		65ABD0F11DC6E4F800A841F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABD0B81DC6E4F800A841F5 /* main.m */; };
 		65ABD0F51DC6E4F800A841F5 /* MultiVideoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABD0C01DC6E4F800A841F5 /* MultiVideoItemViewController.m */; };
 		65ABD0FE1DC6E4F800A841F5 /* VideoPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABD0D31DC6E4F800A841F5 /* VideoPublishViewController.m */; };
-		65ABD1021DC6E7B700A841F5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ABD1011DC6E7B600A841F5 /* libiconv.tbd */; };
-		65ABD1041DC6E7C400A841F5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ABD1031DC6E7C400A841F5 /* libz.tbd */; };
-		65ABD1061DC6E7CE00A841F5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ABD1051DC6E7CE00A841F5 /* libicucore.tbd */; };
 		8E07454E21AFDAF90030293C /* GSVodParamController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37901272192B7A7005DA509 /* GSVodParamController.m */; };
 		8E07454F21AFDAFE0030293C /* GSVodDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37901352192B7A7005DA509 /* GSVodDownloadController.m */; };
 		8E07455021AFDB010030293C /* GSVodPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37901262192B7A7005DA509 /* GSVodPlayerController.m */; };
@@ -439,6 +408,7 @@
 		04FA2F6720F5A59500782DE0 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = ../../../../../../lib/ios/libx264.a; sourceTree = "<group>"; };
 		04FA2F6820F5A59500782DE0 /* libjpeg_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg_ios.a; path = ../../../../../../lib/ios/libjpeg_ios.a; sourceTree = "<group>"; };
 		04FA2F6A20F5A59500782DE0 /* libSwfViewIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSwfViewIOS.a; path = ../../../../../../lib/ios/libSwfViewIOS.a; sourceTree = "<group>"; };
+		15B8ED5BB14BCC683B32A9BE /* Pods-RtSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RtSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-RtSDKDemo/Pods-RtSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		44B43B18228D5577003FCA8F /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSHeartbeatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DDAF8B24F92A3B00237AA0 /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DDAF8C24F92A3B00237AA0 /* GSCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -448,24 +418,11 @@
 		44DDAFA724F92D2600237AA0 /* GSCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DDAFA824F92D2600237AA0 /* GSDocKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSDocKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DDAFA924F92D2600237AA0 /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSHeartbeatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E548E225206A4C0051F48C /* RtSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RtSDK.bundle; sourceTree = "<group>"; };
 		44E667A224F92F9900BA55CA /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E667A324F92F9900BA55CA /* GSCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E667A424F92F9900BA55CA /* GSDocKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSDocKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E667A524F92F9900BA55CA /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSHeartbeatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44FB662225202ED400AAEF2B /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
-		44FB662325202ED400AAEF2B /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
-		44FB662425202ED400AAEF2B /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
-		44FB662525202ED400AAEF2B /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
-		44FB662625202ED400AAEF2B /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
-		44FB662825202ED400AAEF2B /* liblibfaad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibfaad.a; sourceTree = "<group>"; };
-		44FB662925202ED400AAEF2B /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
-		44FB663425202EE300AAEF2B /* RtSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RtSDK.framework; sourceTree = "<group>"; };
-		44FB663525202EE300AAEF2B /* VodSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VodSDK.framework; sourceTree = "<group>"; };
-		44FB663625202EE300AAEF2B /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
-		44FB663825202EE300AAEF2B /* GSCommonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSCommonKit.framework; sourceTree = "<group>"; };
-		44FB663B25202EE300AAEF2B /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSHeartbeatKit.framework; sourceTree = "<group>"; };
-		44FB663C25202EE300AAEF2B /* GSDocKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDocKit.framework; sourceTree = "<group>"; };
+		45FDE6832F984FCD9E4D2F97 /* Pods-RtSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RtSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-RtSDKDemo/Pods-RtSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6509A3471F2F0FED00280696 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		659576231AB3059B00E76840 /* RtSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RtSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65ABD0861DC6E4F800A841F5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -506,7 +463,6 @@
 		65ABD1011DC6E7B600A841F5 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		65ABD1031DC6E7C400A841F5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		65ABD1051DC6E7CE00A841F5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
-		65DB85431DCB3635000AD8DA /* RtSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RtSDK.bundle; path = ../../RtSDK.bundle; sourceTree = "<group>"; };
 		65EE177F213FBE9400360847 /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EE1783213FBE9400360847 /* RtSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RtSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E07456321AFDD0E0030293C /* VodSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VodSDK.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/RtSDK-hfsydraxxwnlkmetnukgwlcrowph/Build/Products/Debug-iphoneos/VodSDK.framework"; sourceTree = "<group>"; };
@@ -615,39 +571,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EDC9E321256524000DB4B0 /* GLKit.framework in Frameworks */,
-				44FB663F25202EE300AAEF2B /* VodSDK.framework in Frameworks */,
-				44FB664225202EE300AAEF2B /* GSCommonKit.framework in Frameworks */,
-				44E667AA24F92F9900BA55CA /* GSDocKit.framework in Frameworks */,
-				446C4EA624FCED32003ECD16 /* libavformat.a in Frameworks */,
-				446C4EAC24FCED3E003ECD16 /* liblibfaad.a in Frameworks */,
-				446C4EAA24FCED33003ECD16 /* libx264.a in Frameworks */,
-				65ABD1061DC6E7CE00A841F5 /* libicucore.tbd in Frameworks */,
-				44FB663125202ED400AAEF2B /* libx264.a in Frameworks */,
-				446C4EA924FCED32003ECD16 /* libswscale.a in Frameworks */,
-				44FB664025202EE300AAEF2B /* GPUImage.framework in Frameworks */,
-				446C4EA724FCED32003ECD16 /* libavutil.a in Frameworks */,
-				446C4EA524FCED32003ECD16 /* libavcodec.a in Frameworks */,
 				F388E19C21E7356C0076E869 /* Bugly.framework in Frameworks */,
-				44E667A624F92F9900BA55CA /* GPUImage.framework in Frameworks */,
-				446C4EAD24FCED46003ECD16 /* liblibfaad.a in Frameworks */,
-				44E667A824F92F9900BA55CA /* GSCommonKit.framework in Frameworks */,
-				44FB663E25202EE300AAEF2B /* RtSDK.framework in Frameworks */,
-				44FB664625202EE300AAEF2B /* GSDocKit.framework in Frameworks */,
-				44FB662C25202ED400AAEF2B /* libavformat.a in Frameworks */,
-				446C4EAB24FCED38003ECD16 /* liblibfaad.a in Frameworks */,
-				446C4EA824FCED32003ECD16 /* libswresample.a in Frameworks */,
-				44FB664525202EE300AAEF2B /* GSHeartbeatKit.framework in Frameworks */,
-				44FB662E25202ED400AAEF2B /* libswscale.a in Frameworks */,
-				44FB662D25202ED400AAEF2B /* libswresample.a in Frameworks */,
-				44FB663025202ED400AAEF2B /* liblibfaad.a in Frameworks */,
-				65ABD1041DC6E7C400A841F5 /* libz.tbd in Frameworks */,
+				447B11682636AA77001D9686 /* libicucore.tbd in Frameworks */,
 				446C4E8A24FCD9FD003ECD16 /* libRobotPenSDK.a in Frameworks */,
-				65ABD1021DC6E7B700A841F5 /* libiconv.tbd in Frameworks */,
-				44FB662A25202ED400AAEF2B /* libavutil.a in Frameworks */,
-				44FB662B25202ED400AAEF2B /* libavcodec.a in Frameworks */,
-				44E667AC24F92F9900BA55CA /* GSHeartbeatKit.framework in Frameworks */,
-				44E0404E24F8F776009965DD /* liblibfaad.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,52 +945,13 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		44FB662025202ED400AAEF2B /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				44FB662125202ED400AAEF2B /* ffmpeg */,
-				44FB662825202ED400AAEF2B /* liblibfaad.a */,
-				44FB662925202ED400AAEF2B /* libx264.a */,
-			);
-			name = Libs;
-			path = ../Libs;
-			sourceTree = "<group>";
-		};
-		44FB662125202ED400AAEF2B /* ffmpeg */ = {
-			isa = PBXGroup;
-			children = (
-				44FB662225202ED400AAEF2B /* libavutil.a */,
-				44FB662325202ED400AAEF2B /* libavcodec.a */,
-				44FB662425202ED400AAEF2B /* libavformat.a */,
-				44FB662525202ED400AAEF2B /* libswresample.a */,
-				44FB662625202ED400AAEF2B /* libswscale.a */,
-			);
-			path = ffmpeg;
-			sourceTree = "<group>";
-		};
-		44FB663225202EE300AAEF2B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44FB663425202EE300AAEF2B /* RtSDK.framework */,
-				44FB663525202EE300AAEF2B /* VodSDK.framework */,
-				44FB663625202EE300AAEF2B /* GPUImage.framework */,
-				44FB663825202EE300AAEF2B /* GSCommonKit.framework */,
-				44FB663B25202EE300AAEF2B /* GSHeartbeatKit.framework */,
-				44FB663C25202EE300AAEF2B /* GSDocKit.framework */,
-			);
-			name = Frameworks;
-			path = ../Frameworks;
-			sourceTree = "<group>";
-		};
 		6595761A1AB3059B00E76840 = {
 			isa = PBXGroup;
 			children = (
-				44E548E225206A4C0051F48C /* RtSDK.bundle */,
-				44FB663225202EE300AAEF2B /* Frameworks */,
-				44FB662025202ED400AAEF2B /* Libs */,
 				65ABD0851DC6E4F800A841F5 /* RtSDKDemo */,
 				659576241AB3059B00E76840 /* Products */,
 				65ABD1001DC6E7B600A841F5 /* Frameworks */,
+				AE64EC2F92D0C31C1C3A9D00 /* Pods */,
 			);
 			sourceTree = "<group>";
 			wrapsLines = 0;
@@ -1085,7 +972,6 @@
 				04EDC93021255065000DB4B0 /* Category */,
 				04EDC9292125505B000DB4B0 /* ViewControllers */,
 				04E2FD6A20F331E000CF0F3C /* Libs */,
-				65DB85431DCB3635000AD8DA /* RtSDK.bundle */,
 				65ABD0FF1DC6E74A00A841F5 /* Controllers */,
 				65ABD0861DC6E4F800A841F5 /* AppDelegate.h */,
 				65ABD0871DC6E4F800A841F5 /* AppDelegate.mm */,
@@ -1275,6 +1161,15 @@
 			path = RobotPenSDK;
 			sourceTree = "<group>";
 		};
+		AE64EC2F92D0C31C1C3A9D00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15B8ED5BB14BCC683B32A9BE /* Pods-RtSDKDemo.debug.xcconfig */,
+				45FDE6832F984FCD9E4D2F97 /* Pods-RtSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F37901242192B770005DA509 /* Vod */ = {
 			isa = PBXGroup;
 			children = (
@@ -1321,10 +1216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 659576461AB3059B00E76840 /* Build configuration list for PBXNativeTarget "RtSDKDemo" */;
 			buildPhases = (
+				E3182484099640D748CF0AAA /* [CP] Check Pods Manifest.lock */,
 				6595761F1AB3059B00E76840 /* Sources */,
 				659576201AB3059B00E76840 /* Frameworks */,
 				659576211AB3059B00E76840 /* Resources */,
 				0459EC93213FBB12005BC3DA /* Run Script */,
+				BA6DA5957680E8E30A04CDBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1458,7 +1355,6 @@
 				65ABD0DC1DC6E4F800A841F5 /* InfoPlist.strings in Resources */,
 				04EDC988212551AA000DB4B0 /* switchDown@2x.png in Resources */,
 				8E90FD2221A286AC000E6BA1 /* 白2.1-橡皮选中@3x.png in Resources */,
-				44E548E325206A4C0051F48C /* RtSDK.bundle in Resources */,
 				8E90FD1621A286AC000E6BA1 /* 白2.1-撤销-不可点击@3x.png in Resources */,
 				04041A43212697F900445D62 /* radio_selected@2x.png in Resources */,
 				8E90FD1E21A286AC000E6BA1 /* 白2.1-笔-粗细-选中3@2x.png in Resources */,
@@ -1499,6 +1395,46 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"5f55b71047\"\n# #\nBUGLY_APP_KEY=\"d8ef868d-74c4-487f-96dd-8ca5f469f20b\"\n# #\nBUNDLE_IDENTIFIER=\"com.gensee.RtSDKDemo\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n# UPLOAD_DEBUG_SYMBOLS=0\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\nUPLOAD_SIMULATOR_SYMBOLS=0\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\nUPLOAD_ARCHIVE_ONLY=1\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\n    echo \"--------------------------------\"\n    echo \"${1}\"\n    echo \"--------------------------------\"\n    exit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\n    P_APP_ID=\"$1\"\n    P_APP_KEY=\"$2\"\n    P_APP_BUNDLE_ID=\"$3\"\n    P_APP_VERSION=\"$4\"\n    P_BSYMBOL_ZIP_FILE=\"$5\"\n    \n    #\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\n        P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\n            P_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n            \n            DSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\n            echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n            \n            echo \"-----------------------------\"\n            STATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\n            echo \"-----------------------------\"\n            \n            UPLOAD_RESULT=\"FAILTURE\"\n            echo \"Bugly server response: ${STATUS}\"\n            if [ ! \"${STATUS}\" ]; then\n            echo \"Error: Failed to upload the zip archive file.\"\n            elif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\n            echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n            UPLOAD_RESULT=\"SUCCESS\"\n            else\n            echo \"Error: Failed to upload the zip archive file to Bugly.\"\n            fi\n            \n            #Remove temp dSYM archive\n            #echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n            #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n            \n            if [ \"$?\" -ne 0 ]; then\n            exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n            fi\n            \n            echo \"--------------------------------\"\n            echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n            \n            if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n            echo \"--------------------------------\"\n            echo \"Failed to upload the dSYM\"\n            echo \"Please check the script and try it again.\"\n            fi\n        }\n        \n        # .dSYM解析为bSYMBOL文件\n        function dSYMParse() {\n            DSYM_FILE=\"$1\"\n            DSYM_SYMBOL_FILE=\"$2\"\n            \n            echo \"--------------------------------\"\n            echo \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n            (/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n            echo \"--------------------------------\"\n            \n        }\n        \n        # 执行\n        function run() {\n            \n            CONFIG_BUGLY_APP_ID=\"$1\"\n            CONFIG_BUGLY_APP_KEY=\"$2\"\n            \n            CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\n            CONFIG_BUGLY_APP_VERSION=\"$4\"\n            CONFIG_DSYM_SOURCE_DIR=\"$5\"\n            CONFIG_DSYM_DEST_DIR=\"$6\"\n            CONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n            \n            # 检查必须参数是否设置\n            if [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\n            exitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\n            fi\n            \n            if [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\n            exitWithMessage \"Error: Bugly App ID not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\n            exitWithMessage \"Error: Bugly App Key not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\n            exitWithMessage \"Error: Bundle Identifier not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\n            exitWithMessage \"Error: App Version not defined.\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\n            fi\n            \n            if [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            mkdir ${CONFIG_DSYM_DEST_DIR}\n            fi\n            \n            DSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\n            IFS=$'\\n'\n            \n            echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n            RET=\"F\"\n            \n            #\n            for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n            RET=\"T\"\n            echo \"Found dSYM file: $dsymFile\"\n            \n            DSYM_FILE_NAME=${dsymFile##*/}\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\n                DSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n                \n                if [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\n                if [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\n                rm -f $DSYM_SYMBOL_ZIP_FILE\n                fi\n                # 如果只上传dSYM，直接压缩dSYM目录\n                zip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\n                else\n                # 使用符号表工具来生成Symbol文件\n                dSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\n                fi\n                \n                # 上传\n                dSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\n                done\n                \n                if [ $RET = \"F\" ]; then\n                exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n                fi\n            }\n            \n            # 在Xcode工程中执行\n            function runInXcode(){\n                echo \"Uploading dSYM to Bugly in Xcode ...\"\n                \n                echo \"Info.Plist : ${INFOPLIST_FILE}\"\n                \n                BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\n                BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n                \n                # 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\n                if [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\n                BUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\n                else\n                BUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\n                fi\n                \n                echo \"--------------------------------\"\n                echo \"Prepare application information.\"\n                echo \"--------------------------------\"\n                \n                echo \"Product Name: ${PRODUCT_NAME}\"\n                echo \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\n                echo \"Version: ${BUNDLE_SHORT_VERSION}\"\n                echo \"Build: ${BUNDLE_VERSION}\"\n                \n                echo \"Bugly App ID: ${BUGLY_APP_ID}\"\n                echo \"Bugly App key: ${BUGLY_APP_KEY}\"\n                echo \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n                \n                echo \"--------------------------------\"\n                echo \"Check the arguments ...\"\n                \n                ##检查模拟器编译是否允许上传符号\n                if [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\n                if [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否是Release模式编译\n                if [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\n                if [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否Archive操作\n                if [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\n                if [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\n                echo \"Archive the package\"\n                else\n                exitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\n                fi\n                fi\n                \n                #\n                run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n            }\n            \n            # 根据Xcode的环境变量判断是否处于Xcode环境\n            INFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n            \n            BuildInXcode=\"F\"\n            if [ -f \"${INFO_PLIST_FILE}\" ]; then\n            BuildInXcode=\"T\"\n            fi\n            \n            if [ $BuildInXcode = \"T\" ]; then\n            runInXcode\n            else\n            echo \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n            # 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\n            BUGLY_APP_ID=\"$1\"\n            BUGLY_APP_KEY=\"$2\"\n            BUNDLE_IDENTIFIER=\"$3\"\n            BUGLY_APP_VERSION=\"$4\"\n            DWARF_DSYM_FOLDER_PATH=\"$5\"\n            SYMBOL_OUTPUT_PATH=\"$6\"\n            UPLOAD_DSYM_ONLY=$7\n            run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\n            fi\n";
+		};
+		BA6DA5957680E8E30A04CDBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RtSDKDemo/Pods-RtSDKDemo-resources.sh",
+				"${PODS_ROOT}/GenseeSDK/bundles/RtSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RtSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RtSDKDemo/Pods-RtSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3182484099640D748CF0AAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RtSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1749,6 +1685,7 @@
 		};
 		659576471AB3059B00E76840 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B8ED5BB14BCC683B32A9BE /* Pods-RtSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1761,15 +1698,8 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Framework",
-					"$(PROJECT_DIR)/",
-					"$(PROJECT_DIR)/RtSDKDemo/ThirdParty",
-					"$(PROJECT_DIR)/RtSDKDemo",
 					"$(PROJECT_DIR)/RtSDKDemo/GSRobot",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/GT",
-					"$(PROJECT_DIR)/RtSDKDemo/TAL",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\"$(SRCROOT)/RtSDKDemo/ThirdParty\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/PrefixHeader.pch";
@@ -1779,18 +1709,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../../lib/ios/**",
-					"$(SRCROOT)/../../../../lib/ios/offlineplay/**",
 					"$(PROJECT_DIR)/RtSDKDemo/GSRobot/RobotPenSDK",
-					"$(PROJECT_DIR)/RtSDKDemo",
-					"$(PROJECT_DIR)/RtSDKDemo/VoiceDetected/Lib",
-					"\"$(SRCROOT)/../Libs\"/**",
 				);
 				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 3.8.2;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
+					"$(inherited)",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gensee.RtSDKDemo;
@@ -1804,6 +1730,7 @@
 		};
 		659576481AB3059B00E76840 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FDE6832F984FCD9E4D2F97 /* Pods-RtSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1816,15 +1743,8 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Framework",
-					"$(PROJECT_DIR)/",
-					"$(PROJECT_DIR)/RtSDKDemo/ThirdParty",
-					"$(PROJECT_DIR)/RtSDKDemo",
 					"$(PROJECT_DIR)/RtSDKDemo/GSRobot",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/GT",
-					"$(PROJECT_DIR)/RtSDKDemo/TAL",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\"$(SRCROOT)/RtSDKDemo/ThirdParty\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/PrefixHeader.pch";
@@ -1834,18 +1754,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../../lib/ios/**",
-					"$(SRCROOT)/../../../../lib/ios/offlineplay/**",
 					"$(PROJECT_DIR)/RtSDKDemo/GSRobot/RobotPenSDK",
-					"$(PROJECT_DIR)/RtSDKDemo",
-					"$(PROJECT_DIR)/RtSDKDemo/VoiceDetected/Lib",
-					"\"$(SRCROOT)/../Libs\"/**",
 				);
 				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 3.8.2;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
+					"$(inherited)",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gensee.RtSDKDemo;

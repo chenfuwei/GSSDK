@@ -4,7 +4,7 @@
 target 'VodSDKDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'GenseeSDK/GSVodSDK', '~>1.1.5'
+  pod 'GenseeSDK/GSVodSDK', '~>1.1.6'
   # Pods for VodSDKDemo
 
 end

@@ -41,42 +41,13 @@
 		04789E342114458F0081F313 /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04789E302114458F0081F313 /* pause@3x.png */; };
 		04789E37211451160081F313 /* GSVodPlayerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04789E36211451160081F313 /* GSVodPlayerBar.m */; };
 		04FC0A8B21538D5400AF9E3B /* MBProgressHUD+GSMJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0A8921538D5400AF9E3B /* MBProgressHUD+GSMJ.m */; };
-		44E548FC25206CA00051F48C /* VodSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548E825206C9F0051F48C /* VodSDK.framework */; };
-		44E548FD25206CA00051F48C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548E925206C9F0051F48C /* GPUImage.framework */; };
-		44E548FF25206CA00051F48C /* GSCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548EB25206C9F0051F48C /* GSCommonKit.framework */; };
-		44E5490225206CA00051F48C /* GSHeartbeatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548EE25206C9F0051F48C /* GSHeartbeatKit.framework */; };
-		44E5490325206CA00051F48C /* GSDocKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548EF25206C9F0051F48C /* GSDocKit.framework */; };
-		44E5490425206CA00051F48C /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548F225206C9F0051F48C /* libavutil.a */; };
-		44E5490525206CA00051F48C /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548F325206C9F0051F48C /* libavcodec.a */; };
-		44E5490625206CA00051F48C /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548F425206C9F0051F48C /* libavformat.a */; };
-		44E5490725206CA00051F48C /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548F525206C9F0051F48C /* libswresample.a */; };
-		44E5490825206CA00051F48C /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548F625206C9F0051F48C /* libswscale.a */; };
-		44E5490925206CA00051F48C /* libPlayerSDKLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548F725206C9F0051F48C /* libPlayerSDKLib.a */; };
-		44E5490A25206CA00051F48C /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548F825206C9F0051F48C /* liblibfaad.a */; };
-		44E5490B25206CA00051F48C /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E548F925206C9F0051F48C /* libx264.a */; };
-		65154D771CE182BA00D091DF /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65154D761CE182BA00D091DF /* VideoToolbox.framework */; };
+		1DDE0A59151EB2E1E3244114 /* Pods_VodSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5D44243F11B26B79E75752 /* Pods_VodSDKDemo.framework */; };
 		6566F2B31BAFAFA000F906B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6566F2B21BAFAFA000F906B3 /* main.m */; };
 		6566F2B61BAFAFA000F906B3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6566F2B51BAFAFA000F906B3 /* AppDelegate.mm */; };
 		6566F2BC1BAFAFA000F906B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6566F2BA1BAFAFA000F906B3 /* Main.storyboard */; };
 		6566F2BE1BAFAFA000F906B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6566F2BD1BAFAFA000F906B3 /* Assets.xcassets */; };
 		6566F2C11BAFAFA000F906B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6566F2BF1BAFAFA000F906B3 /* LaunchScreen.storyboard */; };
-		6566F2E71BAFB0CF00F906B3 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6566F2E61BAFB0CF00F906B3 /* OpenAL.framework */; };
-		6566F2E91BAFB24C00F906B3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6566F2E81BAFB24C00F906B3 /* libsqlite3.0.tbd */; };
-		6566F2EB1BAFB25400F906B3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6566F2EA1BAFB25400F906B3 /* libz.tbd */; };
-		6566F2ED1BAFB25F00F906B3 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6566F2EC1BAFB25F00F906B3 /* libiconv.tbd */; };
-		65AC6EE81BC63FCC0054D25A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AC6EE71BC63FCC0054D25A /* GLKit.framework */; };
-		65AC6EEE1BC658270054D25A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AC6EED1BC658270054D25A /* UIKit.framework */; };
-		65AC6EF01BC658390054D25A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AC6EEF1BC658390054D25A /* CoreGraphics.framework */; };
-		65AC6EF21BC658460054D25A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AC6EF11BC658460054D25A /* Foundation.framework */; };
-		65AC6EF41BC658590054D25A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AC6EF31BC658590054D25A /* AVFoundation.framework */; };
-		B2284B76B3CA8DC841F6703E /* Pods_VodSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145E55919384B067FD705130 /* Pods_VodSDKDemo.framework */; };
-		F33D114A239A347600C7F62C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33D1148239A347600C7F62C /* UserNotifications.framework */; };
 		F33D114D239A35DC00C7F62C /* GSVodPlayerController+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = F33D114C239A35DC00C7F62C /* GSVodPlayerController+Notification.m */; };
-		F35143A9243C4B9E00CF6763 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F35143A4243C4B9E00CF6763 /* libavcodec.a */; };
-		F35143AB243C4B9E00CF6763 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F35143A6243C4B9E00CF6763 /* libswresample.a */; };
-		F35143AC243C4B9E00CF6763 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F35143A7243C4B9E00CF6763 /* libavutil.a */; };
-		F35143AD243C4B9E00CF6763 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F35143A8243C4B9E00CF6763 /* libswscale.a */; };
-		F35143B2243C4BD200CF6763 /* libPlayerSDKLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F35143B0243C4BD200CF6763 /* libPlayerSDKLib.a */; };
 		F367695D2449647400A08C64 /* GSVodSectionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F367695C2449647400A08C64 /* GSVodSectionsView.m */; };
 		F375E59F22C354B000AF2E85 /* GSVodQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = F375E59C22C354AF00AF2E85 /* GSVodQueueController.m */; };
 		F375E5A022C354B000AF2E85 /* GSVodQueueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F375E59E22C354AF00AF2E85 /* GSVodQueueCell.m */; };
@@ -155,22 +126,7 @@
 		04FC0A7F215387D600AF9E3B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04FC0A8921538D5400AF9E3B /* MBProgressHUD+GSMJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GSMJ.m"; sourceTree = "<group>"; };
 		04FC0A8A21538D5400AF9E3B /* MBProgressHUD+GSMJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GSMJ.h"; sourceTree = "<group>"; };
-		145E55919384B067FD705130 /* Pods_VodSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VodSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4489999C24F794DE0002AD77 /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSHeartbeatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E548E825206C9F0051F48C /* VodSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VodSDK.framework; sourceTree = "<group>"; };
-		44E548E925206C9F0051F48C /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
-		44E548EB25206C9F0051F48C /* GSCommonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSCommonKit.framework; sourceTree = "<group>"; };
-		44E548EE25206C9F0051F48C /* GSHeartbeatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSHeartbeatKit.framework; sourceTree = "<group>"; };
-		44E548EF25206C9F0051F48C /* GSDocKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDocKit.framework; sourceTree = "<group>"; };
-		44E548F225206C9F0051F48C /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
-		44E548F325206C9F0051F48C /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
-		44E548F425206C9F0051F48C /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
-		44E548F525206C9F0051F48C /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
-		44E548F625206C9F0051F48C /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
-		44E548F725206C9F0051F48C /* libPlayerSDKLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPlayerSDKLib.a; sourceTree = "<group>"; };
-		44E548F825206C9F0051F48C /* liblibfaad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibfaad.a; sourceTree = "<group>"; };
-		44E548F925206C9F0051F48C /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
-		65154D761CE182BA00D091DF /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		6566F2AE1BAFAFA000F906B3 /* VodSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VodSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6566F2B21BAFAFA000F906B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6566F2B41BAFAFA000F906B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -179,22 +135,14 @@
 		6566F2BD1BAFAFA000F906B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6566F2C01BAFAFA000F906B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6566F2C21BAFAFA000F906B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6566F2E61BAFB0CF00F906B3 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		6566F2E81BAFB24C00F906B3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		6566F2EA1BAFB25400F906B3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		6566F2EC1BAFB25F00F906B3 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		656B30091F43F49C00AF8D32 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		656B300B1F43F4A500AF8D32 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		656B300D1F43F4AB00AF8D32 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		656B300F1F43F4B300AF8D32 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		656B30111F43F4C000AF8D32 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
-		65AC6EE71BC63FCC0054D25A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		65AC6EED1BC658270054D25A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		65AC6EEF1BC658390054D25A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		65AC6EF11BC658460054D25A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		65AC6EF31BC658590054D25A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		65C02D0D1EA4B19800FF882A /* PlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PlayerSDK.framework; path = "../../PlayerSDK/build/Debug-iphoneos/PlayerSDK.framework"; sourceTree = "<group>"; };
 		65C02D0F1EA4B30000FF882A /* VodSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VodSDK.framework; path = ../Framework/VodSDK.framework; sourceTree = "<group>"; };
+		DA5D44243F11B26B79E75752 /* Pods_VodSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VodSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0227C9D2871D5709BC34B8D /* Pods-VodSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VodSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-VodSDKDemo/Pods-VodSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F33D1148239A347600C7F62C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		F33D114B239A35DC00C7F62C /* GSVodPlayerController+Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSVodPlayerController+Notification.h"; sourceTree = "<group>"; };
@@ -237,36 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F33D114A239A347600C7F62C /* UserNotifications.framework in Frameworks */,
-				44E5490925206CA00051F48C /* libPlayerSDKLib.a in Frameworks */,
-				44E5490825206CA00051F48C /* libswscale.a in Frameworks */,
-				44E548FD25206CA00051F48C /* GPUImage.framework in Frameworks */,
-				44E5490225206CA00051F48C /* GSHeartbeatKit.framework in Frameworks */,
-				F35143AD243C4B9E00CF6763 /* libswscale.a in Frameworks */,
-				65154D771CE182BA00D091DF /* VideoToolbox.framework in Frameworks */,
-				44E5490A25206CA00051F48C /* liblibfaad.a in Frameworks */,
-				65AC6EF41BC658590054D25A /* AVFoundation.framework in Frameworks */,
-				44E5490525206CA00051F48C /* libavcodec.a in Frameworks */,
-				65AC6EF21BC658460054D25A /* Foundation.framework in Frameworks */,
-				65AC6EF01BC658390054D25A /* CoreGraphics.framework in Frameworks */,
-				44E5490625206CA00051F48C /* libavformat.a in Frameworks */,
-				F35143B2243C4BD200CF6763 /* libPlayerSDKLib.a in Frameworks */,
-				44E5490425206CA00051F48C /* libavutil.a in Frameworks */,
-				65AC6EEE1BC658270054D25A /* UIKit.framework in Frameworks */,
-				44E548FF25206CA00051F48C /* GSCommonKit.framework in Frameworks */,
-				65AC6EE81BC63FCC0054D25A /* GLKit.framework in Frameworks */,
-				44E548FC25206CA00051F48C /* VodSDK.framework in Frameworks */,
-				6566F2ED1BAFB25F00F906B3 /* libiconv.tbd in Frameworks */,
-				6566F2EB1BAFB25400F906B3 /* libz.tbd in Frameworks */,
-				44E5490325206CA00051F48C /* GSDocKit.framework in Frameworks */,
-				6566F2E91BAFB24C00F906B3 /* libsqlite3.0.tbd in Frameworks */,
-				44E5490B25206CA00051F48C /* libx264.a in Frameworks */,
-				44E5490725206CA00051F48C /* libswresample.a in Frameworks */,
-				F35143AB243C4B9E00CF6763 /* libswresample.a in Frameworks */,
-				F35143AC243C4B9E00CF6763 /* libavutil.a in Frameworks */,
-				6566F2E71BAFB0CF00F906B3 /* OpenAL.framework in Frameworks */,
-				F35143A9243C4B9E00CF6763 /* libavcodec.a in Frameworks */,
-				B2284B76B3CA8DC841F6703E /* Pods_VodSDKDemo.framework in Frameworks */,
+				1DDE0A59151EB2E1E3244114 /* Pods_VodSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,59 +366,9 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		44E548E525206C9F0051F48C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44E548E825206C9F0051F48C /* VodSDK.framework */,
-				44E548E925206C9F0051F48C /* GPUImage.framework */,
-				44E548EB25206C9F0051F48C /* GSCommonKit.framework */,
-				44E548EE25206C9F0051F48C /* GSHeartbeatKit.framework */,
-				44E548EF25206C9F0051F48C /* GSDocKit.framework */,
-				145E55919384B067FD705130 /* Pods_VodSDKDemo.framework */,
-			);
-			name = Frameworks;
-			path = ../Frameworks;
-			sourceTree = "<group>";
-		};
-		44E548F025206C9F0051F48C /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				44E548F125206C9F0051F48C /* ffmpeg */,
-				44E548F725206C9F0051F48C /* libPlayerSDKLib.a */,
-				44E548F825206C9F0051F48C /* liblibfaad.a */,
-				44E548F925206C9F0051F48C /* libx264.a */,
-			);
-			name = Libs;
-			path = ../Libs;
-			sourceTree = "<group>";
-		};
-		44E548F125206C9F0051F48C /* ffmpeg */ = {
-			isa = PBXGroup;
-			children = (
-				44E548F225206C9F0051F48C /* libavutil.a */,
-				44E548F325206C9F0051F48C /* libavcodec.a */,
-				44E548F425206C9F0051F48C /* libavformat.a */,
-				44E548F525206C9F0051F48C /* libswresample.a */,
-				44E548F625206C9F0051F48C /* libswscale.a */,
-			);
-			path = ffmpeg;
-			sourceTree = "<group>";
-		};
 		6566F2A51BAFAFA000F906B3 = {
 			isa = PBXGroup;
 			children = (
-				44E548E525206C9F0051F48C /* Frameworks */,
-				44E548F025206C9F0051F48C /* Libs */,
-				65154D761CE182BA00D091DF /* VideoToolbox.framework */,
-				65AC6EF31BC658590054D25A /* AVFoundation.framework */,
-				65AC6EF11BC658460054D25A /* Foundation.framework */,
-				65AC6EEF1BC658390054D25A /* CoreGraphics.framework */,
-				65AC6EED1BC658270054D25A /* UIKit.framework */,
-				65AC6EE71BC63FCC0054D25A /* GLKit.framework */,
-				6566F2EC1BAFB25F00F906B3 /* libiconv.tbd */,
-				6566F2EA1BAFB25400F906B3 /* libz.tbd */,
-				6566F2E81BAFB24C00F906B3 /* libsqlite3.0.tbd */,
-				6566F2E61BAFB0CF00F906B3 /* OpenAL.framework */,
 				6566F2B01BAFAFA000F906B3 /* VodSDKDemo */,
 				6566F2AF1BAFAFA000F906B3 /* Products */,
 				65C02D0C1EA4B19800FF882A /* Frameworks */,
@@ -556,6 +425,7 @@
 				656B30091F43F49C00AF8D32 /* CoreLocation.framework */,
 				65C02D0F1EA4B30000FF882A /* VodSDK.framework */,
 				65C02D0D1EA4B19800FF882A /* PlayerSDK.framework */,
+				DA5D44243F11B26B79E75752 /* Pods_VodSDKDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -566,7 +436,6 @@
 				F0227C9D2871D5709BC34B8D /* Pods-VodSDKDemo.debug.xcconfig */,
 				FA73B30CC2660294A21DD912 /* Pods-VodSDKDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -915,22 +784,17 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6H63F9597K;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"\"$(SRCROOT)/../Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VodSDKDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = VodSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../../lib/ios",
-					"$(SRCROOT)/../../../../lib/ios/offlineplay",
-					"\"$(SRCROOT)/../Libs\"/**",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 3.8.2;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gensee.VodSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -950,22 +814,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6H63F9597K;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"\"$(SRCROOT)/../Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VodSDKDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = VodSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../../lib/ios",
-					"$(SRCROOT)/../../../../lib/ios/offlineplay",
-					"\"$(SRCROOT)/../Libs\"/**",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 3.8.2;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gensee.VodSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

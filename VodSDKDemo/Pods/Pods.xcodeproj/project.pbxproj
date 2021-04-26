@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9232772C972D1DC797ED84E28618315D /* PBXContainerItemProxy */ = {
+		8C49FF7412B7886D57872FD1A627CF93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -45,6 +45,7 @@
 		3C7FFBA6926748D9945B1446D010328F /* Pods-VodSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VodSDKDemo-Info.plist"; sourceTree = "<group>"; };
 		417FBCF4BB1807E80E0833D19F1621F2 /* Pods-VodSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VodSDKDemo-dummy.m"; sourceTree = "<group>"; };
 		4F75822A0AD1F94ED090B0384E00C436 /* Pods-VodSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VodSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5021D0E0EE78BE797472C1FDFBEEB812 /* libPlayerSDKLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPlayerSDKLib.a; path = Libs/libPlayerSDKLib.a; sourceTree = "<group>"; };
 		59B5576D28517BDA76FF438DAF2B48D5 /* Pods-VodSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VodSDKDemo-umbrella.h"; sourceTree = "<group>"; };
 		5DBFCC2BCFD132869C1F88740FA31C8F /* Pods-VodSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VodSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,9 +57,9 @@
 		BE361AF583397A3234CA60751CA7DB69 /* liblibfaad.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibfaad.a; path = Libs/liblibfaad.a; sourceTree = "<group>"; };
 		C19EEA2C3C9E38227E3894E92AA24B21 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = Frameworks/GPUImage.framework; sourceTree = "<group>"; };
 		D689F56127CB1D03B0B6CCDF95B7C6BB /* libswscale.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libswscale.a; path = Libs/ffmpeg/libswscale.a; sourceTree = "<group>"; };
-		DC9FDCF20EC804B13C85FA851F4BCD21 /* VodSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VodSDK.framework; path = Frameworks/VodSDK.framework; sourceTree = "<group>"; };
 		DCF87F665D6016F55A4214A2E551D772 /* GSCommonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSCommonKit.framework; path = Frameworks/GSCommonKit.framework; sourceTree = "<group>"; };
 		DF55549E93CB83DFDFB87C5F151CEDDC /* Pods-VodSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VodSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E4B0F0F60473E86907973206AE2158C2 /* VodSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VodSDK.framework; path = Frameworks/VodSDK.framework; sourceTree = "<group>"; };
 		E9BA3DFAAA0129498D240FEE93446A5F /* Pods-VodSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VodSDKDemo.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,14 +75,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06C62696EF909E7394F7C72B69F3F815 /* GSVodSDK */ = {
-			isa = PBXGroup;
-			children = (
-				739E5A06D4BAF6FF93885364B1357834 /* Frameworks */,
-			);
-			name = GSVodSDK;
-			sourceTree = "<group>";
-		};
 		12DD22504FAFE7473379619CD417ABF7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +88,7 @@
 			children = (
 				70393D6C43C32D04DDCFAE0F4F053B19 /* GSCommonSDK */,
 				A5294DB4ADB4978A9C0BD208DC2F5A0F /* GSDocSDK */,
-				06C62696EF909E7394F7C72B69F3F815 /* GSVodSDK */,
+				8163D707EF00F5E97573F3145017AC7F /* GSVodSDK */,
 				21E47581C87EF852CCD4205E8F7F0D0D /* Support Files */,
 			);
 			name = GenseeSDK;
@@ -144,20 +137,29 @@
 			name = GSCommonSDK;
 			sourceTree = "<group>";
 		};
-		739E5A06D4BAF6FF93885364B1357834 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DC9FDCF20EC804B13C85FA851F4BCD21 /* VodSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		809CBE1A3119E3F220E48455F72B56E5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				5FDF043E4E5B3C2AF9DC7297C3E46A6B /* Pods-VodSDKDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8163D707EF00F5E97573F3145017AC7F /* GSVodSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9A802A43BB42B948D19E8BF3D2B7B32A /* Frameworks */,
+			);
+			name = GSVodSDK;
+			sourceTree = "<group>";
+		};
+		9A802A43BB42B948D19E8BF3D2B7B32A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5021D0E0EE78BE797472C1FDFBEEB812 /* libPlayerSDKLib.a */,
+				E4B0F0F60473E86907973206AE2158C2 /* VodSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A5294DB4ADB4978A9C0BD208DC2F5A0F /* GSDocSDK */ = {
@@ -246,7 +248,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4E5209ED2C419DFC2DB3927FE1259274 /* PBXTargetDependency */,
+				0AB050366B6AE8DBE6C14E4D38BD7BB9 /* PBXTargetDependency */,
 			);
 			name = "Pods-VodSDKDemo";
 			productName = "Pods-VodSDKDemo";
@@ -303,11 +305,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E5209ED2C419DFC2DB3927FE1259274 /* PBXTargetDependency */ = {
+		0AB050366B6AE8DBE6C14E4D38BD7BB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GenseeSDK;
 			target = B54ACF8786A73D5F43079E3DC91CCBC1 /* GenseeSDK */;
-			targetProxy = 9232772C972D1DC797ED84E28618315D /* PBXContainerItemProxy */;
+			targetProxy = 8C49FF7412B7886D57872FD1A627CF93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

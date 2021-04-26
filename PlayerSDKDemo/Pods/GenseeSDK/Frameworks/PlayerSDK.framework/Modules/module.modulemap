@@ -1,6 +1,0 @@
-framework module PlayerSDK {
-  umbrella header "PlayerSDK.h"
-
-  export *
-  module * { export * }
-}
